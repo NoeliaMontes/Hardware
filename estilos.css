@@ -44,12 +44,19 @@ h1{
     margin-inline: 5rem;
 }
 
+.cuatro{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-inline: 5rem;
+}
+
 
 nav li{
-
+    padding: 0.5rem;
     display: inline;
 }
-li a{
+nav li a{
 
     color: rgb(255, 110, 20);
 }
@@ -79,4 +86,6 @@ p{
 
 h2{
     margin-bottom: 0.4rem;
+    justify-content: center;
+    display: flex;
 }
